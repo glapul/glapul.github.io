@@ -9,7 +9,7 @@
         <header>
             <h1>Scrabble stopwatch</h1>
             <form class="new-task" onsubmit="return f();">
-                <input id="player_input" type="text" name="text" placeholder="Type to add new players" />
+                <input  id="player_input" type="text" name="text" placeholder="Type to set time (in minutes)" />
             </form>
         </header>
 
@@ -17,9 +17,11 @@
             <!--HERE BE DRAGONS-->
         </ul>
 
-        <div class="btn" onclick="next()">
+        <div id="next_btn" style="visibility: hidden;" onclick="next()">
             <h1 style="text-align:center" id="btn_text"> START</h1>
+        </div>
+        <div id="pause_btn" style="visibility: hidden;" onclick="pause()">
+            <h1 style="text-align:center" id="pause_text"> PAUSE</h1>
         </div>
     </div>
 </body>
-

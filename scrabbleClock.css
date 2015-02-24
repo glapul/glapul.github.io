@@ -32,9 +32,16 @@ header {
   position: relative;
 }
 
-.btn {
+#next_btn {
   background: #d2edf4;
   background-image: linear-gradient(to bottom, #8ce605, #e1e5f0 100%);
+  padding: 20px 15px 15px 15px;
+  position: relative;
+  text-align: center;
+}
+#pause_btn {
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #F0C537, #e1e5f0 100%);
   padding: 20px 15px 15px 15px;
   position: relative;
   text-align: center;
